@@ -45,7 +45,7 @@ def Black_Board():
                         "```"
                         st.image("assets/25.jpg")
         
-st.sidebar.image("assets/Shekinah_logo.png",width=300)
+#st.sidebar.image("assets/Shekinah_logo.png",width=300)
                
 
 Black_Board()

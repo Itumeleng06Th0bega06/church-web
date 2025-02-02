@@ -233,7 +233,7 @@ growth, health, and mission of the Church community]""")
                         
                         
                    
-st.sidebar.image("assets/Shekinah_logo.png")
+#st.sidebar.image("assets/Shekinah_logo.png")
 
 Home()
 

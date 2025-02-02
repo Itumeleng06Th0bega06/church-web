@@ -221,7 +221,7 @@ vision.</left>""",unsafe_allow_html=True)
 
 
 
-st.sidebar.image("assets/Shekinah_logo.png")
+#st.sidebar.image("assets/Shekinah_logo.png")
 
 
 
