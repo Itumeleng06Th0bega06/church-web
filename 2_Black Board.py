@@ -1,8 +1,14 @@
 import streamlit as st
 
 # Load CSS
-with open('css.py', 'r') as f:
-    exec(f.read())
+try:
+    with open('css.py', 'r') as f:
+        css = f.read()
+        exec(css)
+except FileNotFoundError:
+    st.error("CSS file not found.")
+except Exception as e:
+    st.error(f"An error occurred while loading the CSS: {e}")
 
 # Constants
 LOGO_PATH = "assets/Shekinah_logo.png"
