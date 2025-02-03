@@ -5,8 +5,14 @@ import time
 st.set_page_config(page_title="SBOI", page_icon='assets/Shekinah_logo.png')
 
 # Load CSS
-with open('css.py', 'r') as f:
-    exec(f.read())
+try:
+    with open('css.py', 'r') as f:
+        css = f.read()
+        exec(css)
+except FileNotFoundError:
+    st.error("CSS file not found.")
+except Exception as e:
+    st.error(f"An error occurred while loading the CSS: {e}")
 
 # Constants
 LOGO_PATH = "assets/Shekinah_logo.png"
@@ -35,7 +41,7 @@ VISION_DECLARATION = """
 VISION_DEDICATION = """
 :orange[VISION DEDICATION]
 
-'Heavenly Father, We stand before You as a church, united in purpose and committed to Your vision. We dedicate the new season of this ministry to You. Guide us as we navigate this journey with faith and dedication.
+'Heavenly Father, We stand before You as a church, united in purpose and committed to Your vision. We dedicate the new season of this ministry to You. Guide us as we navigate this journey with faith and wisdom. Amen.'
 """
 
 def show_logo():
@@ -85,9 +91,12 @@ def Home():
                     st.markdown("<h1><center>Kingdom minded Kids</center></h1>", unsafe_allow_html=True)
                     st.markdown("<h4><center>Every Saturday @ 9am</center></h4>", unsafe_allow_html=True)
                     st.image("children/10.jpg", use_container_width=True)
-                    vid = open('children/A1.mp4', "rb")
-                    st.video(vid.read())
-                    images = ['children/1.jpg', 'children/2.jpg', 'children/3.jpg', 'children/4.jpg', 'children/5.jpg', 'children/6.jpg', 'children/7.jpg', 'children/8.jpg', 'children/9.jpg', 'children/11.jpg', 'children/12.jpg', 'children/13.jpg', 'children/14.jpg', 'children/15.jpg', 'children/16.jpg', 'children/17.jpg', 'children/18.jpg', 'children/19.jpg']
+                    try:
+                        with open('children/A1.mp4', "rb") as vid:
+                            st.video(vid.read())
+                    except FileNotFoundError:
+                        st.error("Video file not found.")
+                    images = ['children/1.jpg', 'children/2.jpg', 'children/3.jpg', 'children/4.jpg', 'children/5.jpg', 'children/6.jpg', 'children/7.jpg', 'children/8.jpg', 'children/9.jpg', 'children/11.jpg']
                     container = st.empty()
                     index = 0
                     while True:
@@ -103,8 +112,8 @@ def Home():
                 if st.session_state.index == "Youth":
                     st.title('Youth')
                     st.image("assets/y1.png")
-                    st.write("**Welcome To Shekinah Blaze Outreach International Youth, Where We Are Nurtured To Being God Fearing Kingdom Leaders Through The Unwavering Teachings Of Biblical Principles. Titus 2:1**")
-                    st.write("**About Us__Shekinah Blaze Is A Youth Group For Teens And Young Adults. Our Mission Is To Extend God's Love And Teachings To The Unchurched, Empower Young Believers To Love Jesus Boldly And To Provide A Safe Space For Them To:**")
+                    st.write("**Welcome To Shekinah Blaze Outreach International Youth, Where We Are Nurtured To Being God Fearing Kingdom Leaders Through The Unwavering Teachings Of Biblical Principles.**")
+                    st.write("**About Us__Shekinah Blaze Is A Youth Group For Teens And Young Adults. Our Mission Is To Extend God's Love And Teachings To The Unchurched, Empower Young Believers To Live A Christ-Centered Life, And Prepare Them For Leadership Roles Within The Church And Community.**")
                     st.write("**:orange[. Live By Faith]**")
                     st.write("**:orange[. Build Meaningful Relationships]**")
                     st.write("**:orange[. Develop Leadership Skills]**")
