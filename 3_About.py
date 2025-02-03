@@ -1,8 +1,14 @@
 import streamlit as st
 
 # Load CSS
-with open('css.py', 'r') as f:
-    exec(f.read())
+try:
+    with open('css.py', 'r') as f:
+        css = f.read()
+        exec(css)
+except FileNotFoundError:
+    st.error("CSS file not found.")
+except Exception as e:
+    st.error(f"An error occurred while loading the CSS: {e}")
 
 # Constants
 LOGO_PATH = "assets/Shekinah_logo.png"
@@ -91,7 +97,7 @@ than strong united families.
                      
 **:orange[Excellence]**_We believe excellence honours God and 
 inspires greatness.
-                        
+                         
 **:orange[Equipping]**_We believe in equipping the saints for 
 ministry and life by helping them to operate in their 
 spiritual gifts.
@@ -99,10 +105,10 @@ spiritual gifts.
 **:orange[Prayer]**_We believe in the power of prayer, and that 
 makes a critical difference in all we attempt to achieve. 
 We are to be a house of prayer for all nations.
-                        
+                         
 **:orange[Authenticity]**_Through authentic living, biblical 
 authority, worship, prayer, and spirit.
-                        
+                         
 **:orange[Committed Community]**_Through intimacy within the 
 community, servant leadership, genuine relationships, 
 and beauty in diversity.
