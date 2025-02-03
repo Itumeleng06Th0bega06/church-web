@@ -11,7 +11,6 @@ except Exception as e:
     st.error(f"An error occurred while loading the CSS: {e}")
 
 # Constants
-LOGO_PATH = "assets/Shekinah_logo.png"
 WELCOME_MESSAGE = """**We're Excited To Have You Fellowship With Us. Please fill The Form To Connect With Us**"""
 BLACK_BOARD_HEADING = """<center><h3>Welcome To The Black Board</h3></center>"""
 BLACK_BOARD_NOTE = """<center>Please Note: All Notifications Will Be Found In This Page!!!</center>"""
