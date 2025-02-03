@@ -56,6 +56,4 @@ def Black_Board():
         with tab2:
             show_black_board()
 
-# st.sidebar.image(LOGO_PATH, width=300)
-
 Black_Board()
