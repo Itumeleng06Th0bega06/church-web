@@ -33,7 +33,7 @@
     background: rgb(14, 17, 23);
     outline: none;
     z-index: 999990;
-    display: none;
+    display: block;
 }
 /*block*/
 .st-emotion-cache-u10a3r {
