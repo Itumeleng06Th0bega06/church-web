@@ -6,38 +6,38 @@ st.set_page_config(page_title="SBOI",
                    page_icon='Shekinah_logo.png')
 
 home = st.Page(
-    page="views/Home.py",
+    page="Home.py",
     title="Home",
     icon= ":material/play_arrow:",
     default=True
 )
 pastoral = st.Page(
-    page="views/Pastoral Team.py",
+    page="Pastoral Team.py",
     title="Pastoral Team",
     icon= ":material/play_arrow:",
 )
 ministries = st.Page(
-    page="views/Ministries.py",
+    page="Ministries.py",
     title="Ministries",
     icon= ":material/play_arrow:",
 )
 anouncement = st.Page(
-    page="views/Anouncements.py",
+    page="Anouncements.py",
     title="Anouncements",
     icon= ":material/play_arrow:",
 )
 forms = st.Page(
-    page="views/Forms.py",
+    page="Forms.py",
     title="Forms",
     icon= ":material/play_arrow:",
 )
 members = st.Page(
-    page="views/Members.py",
+    page="Members.py",
     title="Members",
     icon= ":material/play_arrow:",
 )
 v_m = st.Page(
-    page="views/Vision And Mission.py",
+    page="Vision And Mission.py",
     title="Vision And Mission",
     icon= ":material/play_arrow:",
 )
