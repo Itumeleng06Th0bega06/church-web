@@ -18,7 +18,7 @@ def Home():
                                 
                                 st.write("Judges 16:28")
                                 st.image("25.2.jpg",use_container_width=True)
-                                st.markdown("<h1><center>Welcome To Shekinah Blaze Outreach International</center></h1>",unsafe_allow_html=True)
+                                st.markdown("<h4><center>Welcome To Shekinah Blaze Outreach International</center></h4>",unsafe_allow_html=True)
                                 st.markdown("""<center>A Church With A Family Concept.</center>""",unsafe_allow_html=True)
                                 st.image('25.jpg',use_container_width=True)
                                 st.image('15a.jpg',use_container_width=True)
