@@ -8,7 +8,7 @@ with st.container():
                                                 
                                 with tab1:
                                                                                                     
-                                        st.markdown("""<h4><center>Kingdom minded Kids</center></h4>""",unsafe_allow_html=True)
+                                        st.write ("Kingdom minded Kids")
                                         st.write("Every Saturday @ 9am")
                                         "```"
                                         st.image("10.jpg",use_container_width=True)                 
