@@ -9,7 +9,7 @@ with st.container():
                                 with tab1:
                                                                                                     
                                         st.markdown("""<h4><center>Kingdom minded Kids</center></h4>""",unsafe_allow_html=True)
-                                        st.markdown("""<h4><center>Every Saturday @ 9am</center></h4>""",unsafe_allow_html=True)
+                                        st.write("Every Saturday @ 9am")
                                         "```"
                                         st.image("10.jpg",use_container_width=True)                 
                                         st.markdown("""<h4><center>Our goal at Shekinah Blaze is to introduce children to Jesus at each phase of life so they can have a close relationship with Him. Our leaders aim to provide fun, safe and engaging lessons as they bring the bible to life.</center></h4>""",unsafe_allow_html=True)
