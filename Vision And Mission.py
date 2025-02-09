@@ -2,12 +2,9 @@ import streamlit as st
 
 
 st.subheader(":orange[Vision.]")
-st.text("""Raising God Fearing Kingdom Leaders
-                        By Teaching Uncompromised Bible
-                        Principles.""")
+st.text("""Raising God Fearing Kingdom Leaders By Teaching Uncompromised Bible Principles.""")
 st.subheader(":orange[Mission.]")
-st.text("""To Reach The Unchurched
-                        Through Discipleship.""")
+st.text("""To Reach The Unchurched Through Discipleship.""")
 "---"
 st.write("""•The Church aims to raise God fearing Leaders in every community that the 
                         Church operates in. Leadership without the fear of GOD leads to 
