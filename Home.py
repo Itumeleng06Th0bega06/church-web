@@ -13,7 +13,7 @@ def Home():
         with st.container():
                                 
                                 
-                                st.image("Shekinah_logo.png",width=300)
+                                st.image("Shekinah_logo.png",use_container_width=True)
                                 st.subheader(":orange[Lord Remember Me]")
                                 
                                 st.write("Judges 16:28")
