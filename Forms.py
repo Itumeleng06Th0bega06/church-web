@@ -12,12 +12,12 @@ def form():
         col1,col2=st.columns(2)
         with col1:
             name=st.text_input('enter Name',placeholder='Name *',label_visibility='hidden')
-            email=st.text_input('Email',placeholder='Email',label_visibility='hidden')
+            surname=st.text_input('Surname',placeholder='Surname *',label_visibility='hidden')
             gender=st.radio("Gender *",['Male','Female'],index=None)
             about = st.radio("How Did You Hear About Us",['Social Media','Direct Invitation'],index=None,horizontal=True)
         with col2:
-            surname=st.text_input('Surname',placeholder='Surname *',label_visibility='hidden')
             contact=st.text_input("Contact",placeholder='Contact *',label_visibility='hidden')                   
+            email=st.text_input('Email',placeholder='Email',label_visibility='hidden')
             status=st.radio("Marital Status",['Single','Married'],index=None)
             attendance = st.radio("Have You Visited Our Church Before?",['First Timer','Regular Attendee','Interested In Becoming A Member'],horizontal=True,index=None)
         social = st.selectbox("How Can We Contact You",['Call','WhatsApp','Facebook'],placeholder='Options',index=None)
