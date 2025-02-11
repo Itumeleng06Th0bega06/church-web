@@ -31,7 +31,7 @@ def form():
                                 data(name,surname,email,gender,contact,status,attendance,about,social,comments)
                                 st.write(f":orange[Thank You] {name}  {surname}")
                         else:
-                              st.write('**:red[invalid contact!]*
+                              st.write('**:red[invalid contact!]**
                 else:
                         st.write(':red[Please fill all the required spaces marked]')
                 
