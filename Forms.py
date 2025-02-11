@@ -33,7 +33,7 @@ def form():
                         else:
                               st.write('**:red[invalid contact!]**')        
                 else:
-                        st.warning(':violet[Please fill all the required spaces marked]')
+                        st.write(':orange[Please fill all the required spaces marked]')
                 
             
 def data(a,b,c,d,e,f,g,h,i,j):
