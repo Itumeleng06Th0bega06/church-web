@@ -4,9 +4,10 @@ import sqlite3
 conn = sqlite3.connect('my_form.db',check_same_thread=False)
 cur = conn.cursor()
 
+st.header('Visitation Form')
+st.markdown("""**We're Excited To Have You Fellowship With Us. Please fill The Form To Connect With Us**""")
 def form():
-    st.header('Visitation Form')
-    st.markdown("""**We're Excited To Have You Fellowship With Us. Please fill The Form To Connect With Us**""")
+    
     st.info('Required *')
     with st.form('visitors_form'):
         col1,col2=st.columns(2)
