@@ -27,6 +27,7 @@ def form():
 
         if submit:
                 if name and surname and contact and gender:
+                        contact = contact.replace(" ", "")
                         if contact.isdigit() and len(contact.strip()) == 10:
                                 data(name,surname,email,gender,contact,status,attendance,about,social,comments)
                                 st.write(f":orange[Thank You] {name}  {surname}")
