@@ -6,8 +6,8 @@ cur = conn.cursor()
 
 
 def form():
-    st.header(':orange[Visitation Form]')
-    st.write("""**:orange[We're Excited To Have You Fellowship With Us. Please fill The Form To Connect With Us]**""")
+    st.header('orange[Visitation Form')
+    st.write("""We're Excited To Have You Fellowship With Us. Please fill The Form To Connect With Us""")
     st.info('Required *')
     with st.form('visitors_form'):
         col1,col2=st.columns(2)
