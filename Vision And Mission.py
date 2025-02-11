@@ -1,8 +1,6 @@
 import streamlit as st
 
 col1,col2,col3=st.columns(3,gap='small',vertical_alignment='top')
-col1.image('l1.jpg',width=180)
-col2.image('l2.jpg',width=250)
 col1.subheader(":orange[Vision.]")
 col1.write(""":orange[Raising God Fearing Kingdom Leaders
            By Teaching Uncompromised Bible Principles.]""")
@@ -31,8 +29,6 @@ col2.write("""•The Church will be involved in crime prevention initiatives and
                         Biblical values and by assisting to re-incorporate them back to their 
                         communities. The Church will also provide spiritual counseling to the 
                         inmates.""")
-col1.image('l4.jpg',width=200)
-col2.image('l6.jpg',width=200)
 st.write("""•The Church will also be involved in hospital Ministry by visiting hospitals to pray for 
                         the sick and providing spiritual guidance to the sick. The Church intends to build a 
                         centre for the terminally ill so as to have them close to the Church for prayers and 
@@ -52,6 +48,10 @@ st.write("""•The Church will raise funds to achieve its objectives through don
                         raise funds through campaigns and sponsorships from governmental and private 
                         institutions.""")
 "___"
+col1.image('l1.jpg',width=180)
+col2.image('l2.jpg',width=250)
+col1.image('l4.jpg',width=200)
+col2.image('l6.jpg',width=200)
     
 
     
