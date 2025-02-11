@@ -16,7 +16,7 @@ def form():
             gender=st.radio("Gender *",['Male','Female'],index=None)
             about = st.radio("How Did You Hear About Us",['Social Media','Direct Invitation'],index=None,horizontal=True)
         with col2:
-            contact=st.text_input("Contact",placeholder='Contact *',label_visibility='hidden',max_value=10)                   
+            contact=st.text_input("Contact",placeholder='Contact *',label_visibility='hidden')                   
             email=st.text_input('Email',placeholder='Email',label_visibility='hidden')
             status=st.radio("Marital Status",['Single','Married'],index=None)
             attendance = st.radio("Have You Visited Our Church Before?",['First Timer','Regular Attendee','Interested In Becoming A Member'],horizontal=True,index=None)
