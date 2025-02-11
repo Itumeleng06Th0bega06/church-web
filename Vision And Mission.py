@@ -1,8 +1,8 @@
 import streamlit as st
 
 col1,col2=st.columns(2,gap='small',vertical_alignment='top')
-col1.image('l1.jpg',width=180)
-col2.image('l2.jpg',width=250)
+col1.image('l1.jpg',width=100)
+col2.image('l2.jpg',width=200)
 col1.subheader(":orange[Vision.]")
 col1.write(""":orange[Raising God Fearing Kingdom Leaders
            By Teaching Uncompromised Bible Principles.]""")
