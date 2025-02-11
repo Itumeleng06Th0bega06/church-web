@@ -15,7 +15,7 @@
     border: 1px solid rgb(49 51 63 / 0%);
     border-radius: 1rem;
     padding: calc(-2.5px + 2.5rem);
-    background-color: #62008b;
+    background-color: rgb(100, 0, 140);
 }
 /*form text1*/
 .st-emotion-cache-1hyd1ho p, .st-emotion-cache-1hyd1ho ol, .st-emotion-cache-1hyd1ho ul, .st-emotion-cache-1hyd1ho dl, .st-emotion-cache-1hyd1ho li {
@@ -85,7 +85,7 @@
 .st-emotion-cache-enafw9:active, .st-emotion-cache-enafw9:visited, .st-emotion-cache-enafw9:hover {
     text-decoration: none;
     font-weight: bold;
-    background-color: #a98500;
+    background-color: rgb(170, 135, 0);
 }
 /*header*/
 .st-emotion-cache-12fmjuu {
@@ -94,7 +94,7 @@
     left: 0px;
     right: 0px;
     height: 3.75rem;
-    background: rgb(80 0 105);
+    background: rgb(170, 135, 0);
     outline: none;
     z-index: 999990;
     display: block;
@@ -107,4 +107,42 @@
     object-fit: contain;
     vertical-align: middle;
     max-width: calc(440px - 5.75rem);
+}
+/*form variable text*/
+.st-emotion-cache-1104ytp {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    color: rgb(0, 0, 0);
+}
+/*sidebar*/
+.st-emotion-cache-6qob1r {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: overlay;
+    background-color: wheat;
+}
+/*side header*/
+.st-emotion-cache-kgpedg {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    align-items: start;
+    padding: calc(1.375rem) 1.5rem 1.5rem;
+    background-color: rgb(170, 135, 0);
+}
+/*side menu button*/
+.st-emotion-cache-qsoh6x {
+    vertical-align: middle;
+    overflow: hidden;
+    fill: rgb(255, 255, 255);
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
 }
