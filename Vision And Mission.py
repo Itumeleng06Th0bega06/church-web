@@ -1,29 +1,38 @@
 import streamlit as st
 
+col1,col2,col3=st.columns(3,gap='small',vertical_alignment='top')
+col1.image('l1.jpg',width=180)
+col2.image('l2.jpg',width=250)
+col1.subheader(":orange[Vision.]")
+col1.write(""":orange[Raising God Fearing Kingdom Leaders
+           By Teaching Uncompromised Bible Principles.]""")
+col1.subheader(":orange[Mission.]")
+col1.write(""":orange[To Reach The Unchurched Through Discipleship.]""")
 
-st.subheader(":orange[Vision.]")
-st.text("""Raising God Fearing Kingdom Leaders By Teaching Uncompromised Bible Principles.""")
-st.subheader(":orange[Mission.]")
-st.text("""To Reach The Unchurched Through Discipleship.""")
 "---"
-st.write("""•The Church aims to raise God fearing Leaders in every community that the 
+col1.write("""•The Church aims to raise God fearing Leaders in every community that the 
                         Church operates in. Leadership without the fear of GOD leads to 
                         selfishness and corruption.""")
-st.write("""•Members of the Church need to demonstrate GOD fearing characters in 
+
+col1.write("""•Members of the Church need to demonstrate GOD fearing characters in 
                         every area of their lives. Members have to be selfless in their service for 
                         the Master(Jesus Christ).""")
-st.write("""•Members have to demonstrate the love of God towards fellow members 
+
+col2.write("""•Members have to demonstrate the love of God towards fellow members 
                         and the community at large. We can’t be happy to sleep with full stomachs 
                         while our fellow members go hungry and while our neighbors sleep on 
                         empty stomachs. We have to care for and love each other and our 
                         community. The Church will help eradicate poverty in the communities by 
                         planting vegetable gardens to help distribute fresh vegetable hampers to 
                         the needy within our communities.""")
-st.write("""•The Church will be involved in crime prevention initiatives and in playing 
+
+col2.write("""•The Church will be involved in crime prevention initiatives and in playing 
                         an active role in assisting to rehabilitate ex-offenders by teaching sound 
                         Biblical values and by assisting to re-incorporate them back to their 
                         communities. The Church will also provide spiritual counseling to the 
                         inmates.""")
+col1.image('l4.jpg',width=200)
+col2.image('l6.jpg',width=200)
 st.write("""•The Church will also be involved in hospital Ministry by visiting hospitals to pray for 
                         the sick and providing spiritual guidance to the sick. The Church intends to build a 
                         centre for the terminally ill so as to have them close to the Church for prayers and 

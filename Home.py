@@ -1,24 +1,16 @@
 import streamlit as st
-import pathlib
 
 
-# Opening a .py file as css
-
-
-
-
-
-#defining the pages
 def Home():
         with st.container():
                                 
                                 
                                 st.image("Shekinah_logo.png",use_container_width=True)
-                                st.subheader(":orange[Lord Remember Me]")
+                                st.title(":orange[Lord Remember Me]")
                                 
                                 st.write("Judges 16:28")
                                 st.image("25.2.jpg",use_container_width=True)
-                                st.markdown("<h4><center>Welcome To Shekinah Blaze Outreach International</center></h4>",unsafe_allow_html=True)
+                                st.markdown("<h3><center>Welcome To Shekinah Blaze Outreach International</center></h3>",unsafe_allow_html=True)
                                 st.markdown("""<center>A Church With A Family Concept.</center>""",unsafe_allow_html=True)
                                 st.image('25.jpg',use_container_width=True)
                                 st.image('15a.jpg',use_container_width=True)

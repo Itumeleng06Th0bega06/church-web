@@ -1,53 +1,112 @@
-/*Main Body*/
-.st-emotion-cache-bm2z3a {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+/*Block divider*/
+.st-emotion-cache-8k2ppm {
+    background: rgb(255 167 0);
+    border-radius: 0.5rem;
+    color: rgb(49, 51, 63);
+    font-size: 12px;
+    font-family: "Source Code Pro", monospace;
+    display: block;
+    margin: 0px;
     overflow: auto;
+    padding: 0.1rem 1rem 0.2rem 0.2rem;
+}
+/*form color*/
+.st-emotion-cache-4uzi61 {
+    border: 1px solid rgb(49 51 63 / 0%);
+    border-radius: 1rem;
+    padding: calc(-2.5px + 2.5rem);
+    background-color: #62008b;
+}
+/*form text1*/
+.st-emotion-cache-1hyd1ho p, .st-emotion-cache-1hyd1ho ol, .st-emotion-cache-1hyd1ho ul, .st-emotion-cache-1hyd1ho dl, .st-emotion-cache-1hyd1ho li {
+    font-size: inherit;
+    color: #ffffff;
+}
+/*form text2*/
+.st-emotion-cache-2qp9ou {
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(255 255 255);
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+/*form text3*/
+.st-emotion-cache-89jlt8 p, .st-emotion-cache-89jlt8 ol, .st-emotion-cache-89jlt8 ul, .st-emotion-cache-89jlt8 dl, .st-emotion-cache-89jlt8 li {
+    font-size: inherit;
+    color: #ffa700;
+}
+
+/*form button*/
+.st-emotion-cache-ocsh0s {
+    display: inline-flex;
     -webkit-box-align: center;
     align-items: center;
-    background-color: #3c093b;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 400;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.5rem;
+    min-height: 2.5rem;
+    margin: 0px;
+    line-height: 1.6;
+    text-transform: none;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    width: auto;
+    cursor: pointer;
+    background-color: rgb(255 106 0);
+    border: 1px solid rgb(49 51 63 / 0%);
 }
-/*sidebar*/
-.st-emotion-cache-6qob1r {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    overflow: overlay;
-    background-color: #3d075f;
-}
-/*Scrollbar*/
+
 ::-webkit-scrollbar {
-    background: #4c0f49;
+    background: #ffa700;
     border-radius: 100px;
     height: 10px;
     width: 10px;
 }
+
+/*learn more*/
+.st-emotion-cache-s1invk {
+    position: relative;
+    display: flex;
+    width: 100%;
+    font-size: 14px;
+    padding: 0rem 1rem;
+    cursor: pointer;
+    list-style-type: none;
+    background-color: #5b0000;
+}
+/*tab line*/
+.st-hv {
+    background-color: rgb(255 153 0);
+}
+.st-ho {
+    background-color: rgb(0 0 0);
+}
+
+.st-emotion-cache-enafw9:active, .st-emotion-cache-enafw9:visited, .st-emotion-cache-enafw9:hover {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #a98500;
+}
 /*header*/
-.st-emotion-cache-h4xjwg {
+.st-emotion-cache-12fmjuu {
     position: fixed;
     top: 0px;
     left: 0px;
     right: 0px;
     height: 3.75rem;
-    background: rgb(255, 155, 0);
+    background: rgb(80 0 105);
     outline: none;
     z-index: 999990;
     display: block;
 }
-/*block*/
-.st-emotion-cache-u10a3r {
-    background: rgb(255 155 0);
-    border-radius: 0.5rem;
-    color: rgb(250, 250, 250);
-    font-size: 12px;
-    font-family: "Source Code Pro", monospace;
-    display: block;
-    margin: 0;
-    overflow: auto;
-    padding: 0.5rem 1rem 0.5rem 0.5rem;
-}
-/*tab line*/
-.st-ca {
-    background-color: rgb(180 0 255);
+/*logo*/
+.st-emotion-cache-1bn3yoc {
+    height: 2rem;
+    margin: -0.25rem 0.5rem 0.25rem 0px;
+    z-index: 999990;
+    object-fit: contain;
+    vertical-align: middle;
+    max-width: calc(440px - 5.75rem);
 }
