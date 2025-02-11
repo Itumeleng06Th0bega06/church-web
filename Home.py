@@ -6,7 +6,7 @@ def Home():
                                 
                                 
                                 st.image("Shekinah_logo.png",use_container_width=True)
-                                st.title(":orange[Lord Remember Me]")
+                                st.header(":orange[Lord Remember Me]")
                                 
                                 st.write("Judges 16:28")
                                 st.image("25.2.jpg",use_container_width=True)
