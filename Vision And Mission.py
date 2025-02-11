@@ -48,10 +48,10 @@ st.write("""•The Church will raise funds to achieve its objectives through don
                         raise funds through campaigns and sponsorships from governmental and private 
                         institutions.""")
 "___"
-col1.image('l1.jpg',width=180)
-col2.image('l2.jpg',width=250)
-col1.image('l4.jpg',width=200)
-col2.image('l6.jpg',width=200)
+st.image('l1.jpg',width=180)
+st.image('l2.jpg',width=250)
+st.image('l4.jpg',width=200)
+st.image('l6.jpg',width=200)
     
 
     
