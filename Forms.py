@@ -27,12 +27,12 @@ def form():
 
         if submit:
                 if name and surname and contact and gender:
-                        contact = contact.replace(" ", "")
-                        if contact.isdigit() and len(contact) == range(10,11):
+                        if contact.isdigit() and len(contact) == range(11):
                                 data(name,surname,email,gender,contact,status,attendance,about,social,comments)
                                 st.write(f":orange[Thank You] {name}  {surname}")
                         else:
-                              st.write('**:red[invalid contact!]**')        
+                              st.write('**:red[invalid contact!]**')
+                            clear_on_submit=False
                 else:
                         st.write(':red[Please fill all the required spaces marked]')
                 
