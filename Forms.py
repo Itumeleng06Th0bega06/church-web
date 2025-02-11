@@ -8,7 +8,7 @@ def form():
     st.header('Visitation Form')
     st.markdown("""**We're Excited To Have You Fellowship With Us. Please fill The Form To Connect With Us**""")
     st.info('Required *')
-    with st.form('visitors_form'):
+    with st.form('visitors_form',enter_to_submit=False,clear_on_submit=True):
         col1,col2=st.columns(2)
         with col1:
             name=st.text_input('enter Name',placeholder='Name *',label_visibility='hidden')
