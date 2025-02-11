@@ -28,12 +28,7 @@ anouncement = st.Page(
     page="Anouncements.py",
     title="Anouncements",
     icon= ":material/play_arrow:",
-)
-forms = st.Page(
-    page="Forms.py",
-    title="Forms",
-    icon= ":material/play_arrow:",
-)
+
 members = st.Page(
     page="Members.py",
     title="Members",
@@ -47,7 +42,7 @@ v_m = st.Page(
 pages = st.navigation(
     {
         "MAIN MENU": [home,pastoral,ministries],
-        "BLACK BOARD": [anouncement,forms],
+        "BLACK BOARD": [anouncement], 
         "ABOUT": [members,v_m],
         
     }
