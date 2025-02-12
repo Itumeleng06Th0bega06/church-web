@@ -27,7 +27,7 @@
     padding: 0rem 1rem;
     cursor: pointer;
     list-style-type: none;
-    background-color: #5b0000;
+    background-color: rgb(170, 135, 0);
 }
 /*tab line*/
 .st-hv {
