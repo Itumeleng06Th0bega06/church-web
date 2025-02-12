@@ -57,12 +57,12 @@ some other church where we can carry out the spirit of this covenant and the
 principles of God's Word.
 """)                            
                                 "---"
-                                st.write(":orange[VISION DECLARATION]")
+                                st.write("**:orange[VISION DECLARATION]**")
                                 st.write("'We commit to nurturing God-Fearing Kingdom Leaders through the unwavering teachings of Biblical Principles, empowering them to fulfill the Great Commission. We dedicate ourselves to reaching the unchurched, guiding them into a life of discipleship, and equipping them to make disciples of others. With faith, unity, and passion, we declare that the best is yet to come. Together, we will take the vision further and glorify God in all we do. We boldly declare in the name of Jesus Christ. Amen' ")
-                                ":orange[VISION DEDICATION]"
+                                "**:orange[VISION DEDICATION]**"
                                 "'Heavenly Father, We stand before You as a church, united in purpose and committed to Your vision. We dedicate the new season of this ministry to You. Guide us as we nurture God-Fearing kingdom Leaders and extend Your love to the unchurched. Empower us with wisdom, strength and courage to fulfill this calling. May this vision ignite passion in eery heart, and may Your Spirit lead us in every decisiom and step we take. Let Your will be done in us and through us for Your glory. In the mighty name of Jesus Christ we pray. Amen.'"
                                 "---"
-                                st.write(":orange[STATEMENT OF FAITH]")
+                                st.write("**:orange[STATEMENT OF FAITH]**")
                                 st.write("""1. We believe that the Scriptures of the Old and New Testament are verbally inspired of God, and they are without          
         error in the original writings, and they are the supreme and final authority for faith and life.
 
@@ -104,7 +104,7 @@ sins, His bodily resurrection, His exaltation at God’s right hand, and His per
         attempt to overthrow God is doomed to fail and that the Lake of Fire has been prepared as a place of eternal 
         conscious punishment for him, his demons, and all humans who reject Christ""")
                                 "___"
-                                st.write(":orange[Core Values]")
+                                st.write("**:orange[Core Values]**")
                                 st.markdown(""":orange[**Family**]_We believe there is nothing more important 
         than strong united families.
                      
