@@ -9,40 +9,41 @@ st.set_page_config(page_title="SBOI",
 
 
 home = st.Page(
-    page="Home.py",
+    page="views/Home.py",
     title="Home",
     icon= ":material/play_arrow:",
     
 )
 pastoral = st.Page(
-    page="Pastoral Team.py",
+    page="views/Pastoral Team.py",
     title="Pastoral Team",
     icon= ":material/play_arrow:",
 )
 ministries = st.Page(
-    page="Ministries.py",
+    page="views/Ministries.py",
     title="Ministries",
     icon= ":material/play_arrow:",
 )
 anouncement = st.Page(
-    page="Anouncements.py",
+    page="views/Anouncements.py",
     title="Anouncements",
     icon= ":material/play_arrow:",
+)
 
 members = st.Page(
-    page="Members.py",
+    page="views/Members.py",
     title="Members",
     icon= ":material/play_arrow:",
 )
 v_m = st.Page(
-    page="Vision And Mission.py",
+    page="views/Vision And Mission.py",
     title="Vision And Mission",
     icon= ":material/play_arrow:",
 )
 pages = st.navigation(
     {
         "MAIN MENU": [home,pastoral,ministries],
-        "BLACK BOARD": [anouncement], 
+        "BLACK BOARD": [anouncement],
         "ABOUT": [members,v_m],
         
     }
@@ -59,11 +60,12 @@ def load_css(file_path):
     with open(file_path) as f:
         st.html(f"<style>{f.read()}</style>")
 
-css_path = pathlib.Path("styles.css")
+css_path = pathlib.Path("assets/styles.css")
 load_css(css_path)
 
 # Hidding Stuff
 hide_style = """<style>
             #MainMenu{visibility: visible;}
             footer{visibility: hidden;}</style>"""
+
 st.markdown(hide_style,unsafe_allow_html=True)
