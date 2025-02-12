@@ -6,7 +6,7 @@ def Home():
                                 
                                 
                                 st.image("Shekinah_logo.png",use_container_width=True)
-                                st.header(":orange[Lord Remember Me]")
+                                st.subheader(":orange[Lord Remember Me]")
                                 
                                 st.write("Judges 16:28")
                                 st.image("25.2.jpg",use_container_width=True)
@@ -104,7 +104,7 @@ sins, His bodily resurrection, His exaltation at God’s right hand, and His per
         attempt to overthrow God is doomed to fail and that the Lake of Fire has been prepared as a place of eternal 
         conscious punishment for him, his demons, and all humans who reject Christ""")
                                 "___"
-                                st.header(":orange[Core Values]")
+                                st.write(":orange[Core Values]")
                                 st.markdown(""":orange[**Family**]_We believe there is nothing more important 
         than strong united families.
                      
