@@ -63,46 +63,43 @@ principles of God's Word.
                                 "'Heavenly Father, We stand before You as a church, united in purpose and committed to Your vision. We dedicate the new season of this ministry to You. Guide us as we nurture God-Fearing kingdom Leaders and extend Your love to the unchurched. Empower us with wisdom, strength and courage to fulfill this calling. May this vision ignite passion in eery heart, and may Your Spirit lead us in every decisiom and step we take. Let Your will be done in us and through us for Your glory. In the mighty name of Jesus Christ we pray. Amen.'"
                                 "---"
                                 st.write("**:orange[STATEMENT OF FAITH]**")
-                                st.write("""1. We believe that the Scriptures of the Old and New Testament are verbally inspired of God, and they are without          
-        error in the original writings, and they are the supreme and final authority for faith and life.
+                                st.write("""
+The programs and activities governing the form of worship of
+SHEKINAH BLAZE OUTREACH INTERNATIONAL 
+Shall be based upon and at all times and be consistent with the following creeds and
+Beliefs:
 
-2. We believe in one God, Creator and Sustainer of the universe, Who is eternally existent in three persons —
-        Father, Son, and Holy Spirit.
-                        
-3. We believe in the Deity of Jesus Christ, His virgin birth, sinless life, His death to pay the penalty for everyone’s 
-sins, His bodily resurrection, His exaltation at God’s right hand, and His personal, imminent, pretribulational and 
-        pre-millennial return.
-                        
-4. We believe that all have sinned and are therefore guilty before God and are under His condemnation.
-                        
-5. We believe that all who by faith receive Jesus Christ are born again of the Holy Spirit, therefore children of God 
-        and eternally saved, and that the Holy Spirit dwells within every believer to enlighten, guide, and enable the 
-        believer in life, testimony, and service. We believe that God answers the prayers of His people and meets their 
-        needs according to His purpose.
-                        
-6. We believe that God gives spiritual gifts to all believers for the building up of the body of Christ. However, the 
-        miraculous sign-gifts of the Spirit, such as tongues and healings, were limited to the early church.
-                        
-7. We believe in the bodily resurrection of the just and unjust, the everlasting blessedness of the saved in Glory 
-        and the everlasting conscious punishment of the lost in hell.
-                        
-8. We believe that all believers are called to a life of separation from all worldly and sinful practices and alliances.
-                        
-9. We believe that from the beginning with Adam and Eve, God ordained marriage as only between one man and 
-        one woman. All sexual activity outside of this biblical definition of marriage, including homosexual practices, is in 
-        direct contradiction to God’s Word and His intention for the institution of the home.""")
-                                with st.expander("Learn More"):
-                                        st.write(""":orange[Historicity of Genesis]
-            Word of Life Bible Institute is committed to the historical and factual accuracy of the book of Genesis. Therefore, 
-        we teach a recent creation of the entire universe and all forms of life in the six, 24-hour days of the creation 
-        week. We believe that Adam and Eve were the first man and woman and that all of mankind has descended 
-        from them and has inherited a sin nature from their fall into sin, resulting in a cursed creation. We believe in a 
-        personal Satan who led some of the angels to rebel, enticed Eve to eat the forbidden fruit, and continues to 
-        oppose God’s program for human history. We believe in a worldwide flood which explains the disappearance of 
-        certain species recorded in the fossil record, the subsequent development of mankind from Noah, and the 
-        creation of language groups and nations from God’s intervention at the Tower of Babel. We believe that Satan’s 
-        attempt to overthrow God is doomed to fail and that the Lake of Fire has been prepared as a place of eternal 
-        conscious punishment for him, his demons, and all humans who reject Christ""")
+1. We believe in the scriptures of the Old and New Testaments in their original writing as fully inspired of God and accept them as the supreme and final authority for faith and life.
+
+2. We believe in one God, eternally existent in three Persons — Father, Son and Holy Spirit.
+
+3. We believe that Jesus Christ was begotten of the Father, conceived by the Holy Spirit, born of the Virgin Mary and is true God and true man.
+
+4. We believe that God created man in His own image; that man sinned and thereby incurred the penalty of sin which is death, physically and spiritual; that all human beings inherit a sinful nature which issues (in the case of those who reach moral responsibility) in actual transgression involving personal guilt.
+
+5. We believe that the LORD Jesus Christ died for our sins a substitutionary sacrifice according to the Scriptures and that all who believe in Him are justified on the grounds of His shed blood.
+
+6. We believe in the bodily resurrection of the LORD Jesus, His ascension into heaven, and His present life as our High Priest and Advocate.
+
+7. We believe in the personal return of the Lord Jesus Christ.
+
+8. We believe that all who repent of their sin and receive the Lord Jesus Christ by faith are born again of the Holy Spirit and thereby become children of God.
+
+9. We believe in baptism in Holy Spirit, empowering and equipping believers for services, with the accompanying service, with the accompanying supernatural gifts of the Spirit; and in fellowship with the Holy Spirit.
+
+10. We believe in the divinely ordained ministries of Apostle, Prophets, Evangelist, Pastor and Teacher.
+
+11. We believe in the resurrection of both the just and the unjust, the eternal blessedness of the redeemed, and the eternal banishment of those who have rejected the offer of salvation.
+
+12. We believe that the one true church is the whole company of those who have been redeemed by Jesus Christ and regenerated by the Holy Spirit; that the local church on earth should take its character from this conception of the Church spiritual and therefore. That the new birth and personal confession of Christ are essential of Church membership.
+
+13. We believe that the Lord Jesus Christ appointed Mo ordinances — Baptism in water and the Lord's Supper — to be observed as acts of obedience and as perpetual witnesses to the cardinal facts of the Christian faith; that Baptism is the immersion of the believe in water as a confession of identification with Christ in burial and resurrection and that the Lord's Supper is the partaking of the emblems symbolic of the Savior’s broken body and shed blood, in remembrance of His sacrificial death, till He comes.
+
+14. We believe that divine healing was provided for in the Old Testament and is an integral part of the Gospel.
+
+15. We regard to submission to authority, we believe in the principle of being in authority because you are under authority. As such, it is understood that church membership shall be subject to submission to authority in matters pertaining to church governance, doctrine and personal behaviour.
+
+16. We believe the Bible teaches that without holiness no man can see the Lord. We believe in the doctrine of sanctification as a definite, yet progressive work of grace, commencing at the time of the new birth and continuing until the consummation of salvation.""")
                                 "___"
                                 st.write("**:orange[Core Values]**")
                                 st.markdown(""":orange[**Family**]_We believe there is nothing more important 
