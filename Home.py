@@ -63,8 +63,7 @@ principles of God's Word.
                                 "'Heavenly Father, We stand before You as a church, united in purpose and committed to Your vision. We dedicate the new season of this ministry to You. Guide us as we nurture God-Fearing kingdom Leaders and extend Your love to the unchurched. Empower us with wisdom, strength and courage to fulfill this calling. May this vision ignite passion in eery heart, and may Your Spirit lead us in every decisiom and step we take. Let Your will be done in us and through us for Your glory. In the mighty name of Jesus Christ we pray. Amen.'"
                                 "---"
                                 st.write("**:orange[STATEMENT OF FAITH]**")
-                                st.write("""
-The programs and activities governing the form of worship of
+                                st.write("""The programs and activities governing the form of worship of
 SHEKINAH BLAZE OUTREACH INTERNATIONAL 
 Shall be based upon and at all times and be consistent with the following creeds and
 Beliefs:
