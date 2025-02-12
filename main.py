@@ -65,7 +65,7 @@ load_css(css_path)
 
 # Hidding Stuff
 hide_style = """<style>
-            #MainMenu{visibility: hidden;}
+            #GitMenu{visibility: hidden;}
             footer{visibility: hidden;}</style>"""
 
 st.markdown(hide_style,unsafe_allow_html=True)
