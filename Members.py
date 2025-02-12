@@ -1,6 +1,7 @@
 import streamlit as st
 
-st.write("""**:orange[Key duties of every Church member:]**
+st.subheader('Key Duties Of Every Church Member')
+st.write("""
          
 1. Attending Services Regularly
 Make it a priority to attend church services consistently, participating in worship, teachings, 
