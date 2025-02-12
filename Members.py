@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.subheader('Key Duties Of Every Church Member')
+st.subheader(':orange[Key Duties Of Every Church Member]')
 st.write("""
          
 1. Attending Services Regularly
