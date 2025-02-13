@@ -4,8 +4,8 @@ import pathlib
 # Set up the page
 st.set_page_config(page_title="SBOI",
                    layout='centered',
-                   page_icon='Shekinah_logo.png')
-                   theme = 'light' 
+                   page_icon='Shekinah_logo.png', 
+                   theme = 'light') 
 
 
 home = st.Page(
