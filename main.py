@@ -63,8 +63,9 @@ css_path = pathlib.Path("styles.css")
 load_css(css_path)
 
 # Hidding Stuff
-hide_style = """<style>
-            
-            Footer{visibility: hidden;}</style>"""
-
-st.markdown(hide_style,unsafe_allow_html=True)
+hide_footer_style = """
+   <style>
+   .reportview-container .main footer {visibility: hidden;}
+   </style>
+   """
+   st.markdown(hide_footer_style, unsafe_allow_html=True)
